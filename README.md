@@ -25,5 +25,5 @@ git push -u origin main
 After GitHub Pages is enabled, the site will be available at:
 
 ```text
-https://wooyooh.github.io
+https://wooyoohl.github.io
 ```
