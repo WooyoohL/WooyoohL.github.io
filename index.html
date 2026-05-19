@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wooyooh Liu - independent researcher and indie game developer.">
+  <title>Wooyooh Liu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" aria-label="Site header">
+    <a class="brand" href="#top" aria-label="Wooyooh Liu home">Wooyooh Liu</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__visual" aria-hidden="true">
+        <canvas id="signal-canvas"></canvas>
+      </div>
+      <div class="hero__copy">
+        <p class="eyebrow">Independent researcher / indie game developer</p>
+        <h1 id="hero-title">Wooyooh Liu</h1>
+        <p class="lede">Independent researcher and indie game developer.</p>
+        <p class="intro">
+          I use this space to collect focused research notes, small playable experiments,
+          and project updates.
+        </p>
+        <div class="actions" aria-label="Primary links">
+          <a class="button button--primary" href="#work">View work</a>
+          <a class="button" href="https://github.com/wooyooh" rel="me">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="section__heading">
+        <p class="eyebrow">Work</p>
+        <h2 id="work-title">Research, prototypes, and games.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature__tag">Research</span>
+          <h3>Independent research</h3>
+          <p>Short-form notes, experiments, and implementation records for ideas worth testing.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">Games</span>
+          <h3>Indie game development</h3>
+          <p>Small systems, mechanics, and playable sketches built around clear interaction loops.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__tag">Builds</span>
+          <h3>Technical experiments</h3>
+          <p>Minimal tools and prototypes that turn research questions into concrete artifacts.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--split" id="notes" aria-labelledby="notes-title">
+      <div class="section__heading">
+        <p class="eyebrow">Notes</p>
+        <h2 id="notes-title">A compact public notebook.</h2>
+      </div>
+      <div class="note-panel">
+        <p>
+          This site is intentionally small: a durable home page first, then deeper project pages
+          when a project has enough substance to publish.
+        </p>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Open to thoughtful research and game conversations.</h2>
+      </div>
+      <a class="button button--primary" href="https://github.com/wooyooh">Find me on GitHub</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> Wooyooh Liu</span>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
