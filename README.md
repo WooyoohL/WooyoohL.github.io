@@ -14,10 +14,10 @@ Then visit `http://localhost:8000`.
 
 ## Deploy to GitHub Pages
 
-Create a repository named `wooyooh.github.io`, then push this directory:
+Create a repository named `WooyoohL.github.io`, then push this directory:
 
 ```bash
-git remote add origin git@github.com:wooyooh/wooyooh.github.io.git
+git remote add origin git@github-personal:WooyoohL/WooyoohL.github.io.git
 git branch -M main
 git push -u origin main
 ```
@@ -25,5 +25,5 @@ git push -u origin main
 After GitHub Pages is enabled, the site will be available at:
 
 ```text
-https://wooyooh.github.io
+https://wooyoohl.github.io
 ```
